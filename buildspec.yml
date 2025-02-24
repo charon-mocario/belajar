@@ -1,9 +1,9 @@
 version: 0.2
 env: # Create the environment
  variables:
- ECR_REPO: YOUR_ECR_REPO
- ECR_REGION: YOUR_ECR_REGION
- CONTAINER_NAME: YOUR_CONTAINER_NAME
+ ECR_REPO: "lks-catalog-image"
+    ECR_REGION: "us-east-1"
+    CONTAINER_NAME: "lks-catalog"
 phases:
  install: # Install runtime
  runtime-versions:
